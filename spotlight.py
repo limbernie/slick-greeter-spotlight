@@ -3,7 +3,7 @@
 import json, os, requests
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
-base_url = "https://arc.msn.com/v3/Delivery/Cache?pid=209567&fmt=json&lc=en-US&ctry=SG"
+base_url = "https://arc.msn.com/v3/Delivery/Placement?pid=209567&fmt=json&rafb=0&ua=WindowsShellClient%2F0&cdm=1&disphorzres=9999&dispvertres=9999&lo=80217&pl=en-US&lc=en-US&ctry=us"
 target_image = None
 
 def get_image_link():
